@@ -1,0 +1,149 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+body {
+    font-family: Arial;
+    background-color: rgb(247, 242, 235);
+}
+
+h1 {
+	color: #111;
+	font-size: 4rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem;
+}
+
+.title{
+	color: orange;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+h2 {
+    margin: 5px;
+    text-align: center;
+}
+
+input[type=text] {
+    height: 30px;
+    margin-left: 30%;
+    font-size: large;
+    outline: none;
+    width: 35%;
+    border-radius: 20px;
+}
+
+input[type=button] {
+    background-color: rgb(79, 185, 79);
+    border: none;
+    height: 33px;
+    font-weight: 800;
+    font-size: larger;
+    width: 40px;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+input[type=button][name=btnAddNe] {
+    background: none;
+    border: none;
+    height: 0;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+.todo {
+    width: 30.4%; 
+    float: left;
+    clear: right;
+    margin: 1.1%;
+    border: .1rem solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.progress {
+    width: 30.4%; 
+    float: left;
+    clear: right;
+    margin: 1.1%;
+    border: .1rem solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.completed {
+    width: 30.4%; 
+    float: left;
+    clear: right;
+    margin: 1.1%;
+    border: .1rem solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.sortable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding:  2px; 
+    min-height: 30px; 
+    border-radius: 5px;
+}
+
+.sortable li { 
+    margin: 3px 3px 3px 3px; 
+    padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em; 
+    height: 18px;
+}
+
+.sortable li span { 
+    position: absolute; 
+    margin-left: -1.3em; 
+}
+
+.item {
+    display: flex;
+    background-color: white;
+    border-radius: 3px; 
+    cursor: pointer;
+    color: black;
+    border-bottom: .3rem solid black;
+    border-top: .05rem solid black;
+    border-right: .05rem solid black;
+    border-left: .05rem solid black;
+    margin-bottom: 3px;
+    height: auto;
+}
+
+.remove{
+	background: #e00;
+	color: #fff;
+	height: 28px;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	width: 28px;
+	cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 7px;
+    left: 4px;
+}
+ 
+.card{
+    background-color: white;
+    border-radius: 3px; 
+    cursor: pointer;
+}

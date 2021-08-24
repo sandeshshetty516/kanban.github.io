@@ -1,0 +1,89 @@
+body { 
+    background-color: #CCC;
+}
+
+#Header a:hover {
+    color: #fff;
+}
+
+#bg-img
+{
+    background: url('../images/computer-564099_1280.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#Aboutme {
+    margin-top: -200px;
+}
+
+#Aboutme .fa {
+    color: white;
+}
+
+#Aboutme span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Aboutme hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Skills span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Skills hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Education span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Education hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#ProjectandActivities span {
+    padding: 10px 20px 10px 20px;
+}
+
+#ProjectandActivities hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Contactme span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Contactme hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+.card-group {
+    margin-bottom: 20px;
+}
+
+#Contactme .name{
+    margin-left: 2em;
+    margin-right: 50%;
+}
+#Contactme .email{
+    margin-left: 2em;
+    margin-right: 50%;
+}
+#Contactme .message{
+    margin-left: 2em;
+    margin-right: 30%;
+}
+#Contactme .Submit{
+    margin-left: 2em;
+
+}
